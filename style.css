@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar_position{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+#brand_color{
+    color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+#sign_in{
+    background-color: chartreuse;
+    border-radius: 15px;
+}
+#nav_collapse a{
+    border-bottom: 2px solid transparent;
+}
+#nav_collapse a:hover{
+    color: whitesmoke;
+    border-bottom: 2px solid chartreuse;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Home */
+#home{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(./background_img.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 90px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home p{
+    font-size: 20px;
+    color: white;
+}
+#home .input-group{
+    width: 40%;
+}
+#signin_btn{
+    background-color: chartreuse;
+    color: white;
+}
+/* About */
+#about{
+    background: linear-gradient(to right,#ea1d6f,#eb466b 100%);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+/* products */
+#products{
+    background: #e5e5e5;
+}
+/* contact */
+#submit{
+    background: chartreuse;
+    color: white;
+}
+/* footer */
+#footer{
+    background:black;
+    height: 40px;
+}
+/* #foot_txt{
+    text-align: center;
+} */
